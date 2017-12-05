@@ -14,6 +14,7 @@
 # --------------------------------------------------------------------------
 import unittest
 from datetime import datetime
+import time
 
 from dateutil.tz import tzutc
 
@@ -51,6 +52,7 @@ class StorageTableBatchTest(StorageTestCase):
 
         if not self.is_playback():
             self.ts.create_table(self.table_name)
+        time.sleep(20)
 
     def tearDown(self):
         if not self.is_playback():

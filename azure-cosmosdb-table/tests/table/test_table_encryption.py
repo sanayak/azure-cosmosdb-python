@@ -14,6 +14,7 @@
 # --------------------------------------------------------------------------
 
 import unittest
+import time
 from copy import deepcopy
 from datetime import datetime
 from json import loads
@@ -80,6 +81,7 @@ class StorageTableEncryptionTest(StorageTestCase):
             self.ts.create_table(self.table_name)
 
         self.query_tables = []
+        time.sleep(20)
 
     def tearDown(self):
         if not self.is_playback():

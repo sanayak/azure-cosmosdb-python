@@ -15,6 +15,7 @@
 # limitations under the License.
 # --------------------------------------------------------------------------
 import unittest
+import time
 from datetime import datetime, timedelta
 from math import isnan
 
@@ -63,6 +64,7 @@ class StorageTableEntityTest(StorageTestCase):
             self.ts.create_table(self.table_name)
 
         self.query_tables = []
+        time.sleep(20)
 
     def tearDown(self):
         if not self.is_playback():

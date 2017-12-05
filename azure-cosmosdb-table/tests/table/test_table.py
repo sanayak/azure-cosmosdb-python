@@ -3,6 +3,7 @@
 import locale
 import os
 import sys
+import time
 # -------------------------------------------------------------------------
 # Copyright (c) Microsoft.  All rights reserved.
 #
@@ -55,6 +56,7 @@ class StorageTableTest(StorageTestCase):
 
         self.ts = self._create_storage_service(TableService, self.settings)
         self.test_tables = []
+        time.sleep(20)
 
     def tearDown(self):
         if not self.is_playback():
