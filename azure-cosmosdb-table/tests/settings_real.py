@@ -26,7 +26,7 @@ PREMIUM_STORAGE_ACCOUNT_NAME = "premiumstoragename"
 PREMIUM_STORAGE_ACCOUNT_KEY = "NzhL3hKZbJBuJ2484dPTR+xF30kYaWSSCbs2BzLgVVI1woqeST/1IgqaLm6QAOTxtGvxctSNbIR/1hW8yH+bJg=="
 
 # Use instead of STORAGE_ACCOUNT_NAME and STORAGE_ACCOUNT_KEY if custom settings are needed
-CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=tables-sdk-tests-daily-run;AccountKey=zB7yupjZitPyIeUrswqdRmsCjSV0jZCJJ3G2eXG06CyKedtmJwttQ1XXAE2l1QXHPSUk9UEojbckmG20haNBng==;TableEndpoint=https://tables-sdk-tests-daily-run.table.cosmosdb.windows-ppe.net:443/;"
+CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=test-gen5-table;AccountKey=MJjWgPiiFHekYp27pIohln0BB211u2qJxWpjMtbUXf0O5biOVygFTz6IBJQUsgqBEJgciOy1hTJpFIpLMN6qwQ==;TableEndpoint=https://test-gen5-table.table.cosmosdb.azure.com:443/;"
 #CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=sanayaksouthindia;AccountKey=3ELe6MDtfqVP4GeLPgEzVS1Xd5OMs2jiUPhl8W9YGrmDgG0Cw3af+3RZenR8bWexD64j6xaajixrkifbWDvnRA==;EndpointSuffix=core.windows.net"
 BLOB_CONNECTION_STRING = ""
 PREMIUM_CONNECTION_STRING = ""
